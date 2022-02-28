@@ -1,0 +1,36 @@
+.container{
+    max-width: 400px;
+    margin: 10vh auto;
+    box-shadow: 0 0 43px 17px rgba(168, 161, 161, 0.109);
+    border: 3px solid gray;
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding:16px 8px;
+    font-size:25px;
+
+}
+.buttons{
+    display: grid;
+    border: 1px solid gray;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons div{
+    border: 3px solid gray;
+} 
+.button{
+    border: 0.5px solid gray;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor:pointer;
+}
+.button:hover {
+    background-color: rgb(70, 65, 65);
+}
+#equal{
+    background-color: rgb(70, 65, 65);
+    color:white;
+}
